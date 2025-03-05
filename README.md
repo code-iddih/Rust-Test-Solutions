@@ -1,32 +1,44 @@
-# 🦀 Rust Test Solution
+# 🦀 Rust-Test-Solutions
 
 ## 📌 Description
 This Rust program prompts the user to enter five numbers and then calculates:
-- 🔢 **Lowest Common Multiple (LCM)** of the numbers.
-- 🏆 **Highest Common Factor (HCF)** of the numbers.
+- The **Lowest Common Multiple (LCM)**
+- The **Highest Common Factor (HCF)**
 
-## 🛠️ Technologies Used
-- Rust 🦀
+## 🛠️ Setup and Installation
+To set up and run this Rust program, follow these steps:
 
-## 📋 Prerequisites
-Ensure you have Rust installed on your system. You can check by running:
+### Prerequisites
+Ensure you have **Rust** installed on your system. If not, install it using:
 ```sh
-rustc --version
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-If Rust is not installed, download and install it from [Rust's official website](https://www.rust-lang.org/).
 
-## 🚀 How to Run
-1. Clone this repository or navigate to the project directory.
-2. Open a terminal and initialize a new Rust project (if not already done):
-   ```sh
-   cargo init
-   ```
-3. Run the program using:
-   ```sh
-   cargo run
-   ```
+### Clone the Repository
+```sh
+git clone https://github.com/code-iddih/Rust-Test-Solutions.git
+cd Rust-Test-Solutions
+```
 
-## 📝 Example Usage
+### Running the Program
+1. Navigate to the `src` directory and ensure `main.rs` is present.
+2. Run the program using Cargo:
+```sh
+cargo run
+```
+
+## 📂 Project Structure
+```
+Rust-Test-Solutions/
+│-- src/
+│   ├── main.rs
+│-- .gitignore
+│-- Cargo.lock
+│-- Cargo.toml
+│-- README.md
+```
+
+## 📊 Example Usage
 ```
 Enter five numbers:
 12
@@ -38,16 +50,14 @@ HCF (GCD) of the numbers: 6
 LCM of the numbers: 360
 ```
 
-## 🏗️ How It Works
-1. The user inputs five numbers.
-2. The program computes:
-   - **HCF** using the greatest common divisor (GCD) method.
-   - **LCM** using the relationship: `LCM(a, b) = (a * b) / GCD(a, b)`.
-3. The results are displayed.
+## 🌟 Features
+- Accepts **five integer inputs**
+- Computes **LCM** and **HCF** using Rust's iterators and functional programming concepts
+- Provides **error handling** for invalid inputs
 
-## 📜 License
-This project is open-source under the MIT License.
+## 📚 License
+This project is licensed under the **MIT License**.
 
 ---
-
+Made with ❤️ by [code-iddih](https://github.com/code-iddih)
 
